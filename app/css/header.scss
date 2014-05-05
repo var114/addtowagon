@@ -1,0 +1,94 @@
+.mastheadbackground{
+  max-width: 100%;
+}
+
+.masthead{
+    background-color: $light-blue;
+    position: relative;
+    max-width: 100%;
+    border-top: 0.1em solid $light-blue; 
+  }
+
+.logo-wrapper {
+  margin-top: 0.27em;
+  background-color: $dark-blue;
+  text-align: center;
+ }
+
+.logo-wrapper img{
+  max-width: 80%;
+  max-height: 60%;
+  position: relative;
+  padding: 1em;
+  padding-bottom: 2em;
+}
+
+.logo-wrapper p{
+  color: $yellow;
+  padding-bottom: 0.6em;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), not all, not all {
+.line{
+  position: absolute;
+  width: 100%;
+  background-image: url(/img/Bg11.png);  
+  background-size: 1000px 100px;
+  margin-top: -93px;
+  height: 100px;
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 58.5em), not all, not all {
+.line{
+  position: absolute;
+  width: 100%;
+  background-image: url(/img/Bg22.png);  
+  background-size: 1204px 100px;
+  margin-top: -90px;
+  height: 100px;
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) and (min-width: 74em), not all, not all {
+.line{
+  position: absolute;
+  width: 100%;
+  background-image: url(/img/Bg33.png); 
+  background-size: 2500px 100px;
+  margin-top: -95px;
+  height: 100px;
+  }
+}
+
+.links{
+ float: right; 
+ position: relative;
+  margin-top: -1.3em;
+  margin-right: 1.7em;
+  padding-bottom: 5px;
+  /* border-bottom: 1px solid $red; */
+}
+
+.list-nav{
+  font-size: 1.5em; 
+}
+
+.list-nav li{  
+  float: left;
+  position: relative;
+  padding: 0.4em;
+  
+ }
+
+.link-archive{
+  line-height: 12px;
+  border-right: 1px solid $gold-gold;
+ 
+}
+
+.link-about {
+  margin-top: -0.52em;
+
+}
+

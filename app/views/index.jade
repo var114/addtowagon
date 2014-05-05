@@ -1,0 +1,88 @@
+extends layout
+
+block header
+
+block title
+  title Add to Wagon
+
+block content 
+  .content
+    .posts
+        h1 Rise of the JavaChip(1812)
+        .tagline 
+          h2 The story about the missing Chip. 
+        p 
+          | Like a programmed 
+          Strong Robot 
+          | I wake up, go to my local 
+          Strong Starbucks
+          |, && stand in line.
+        p 
+          br
+          | The world is sleeping except for everyone in this 
+          eq 400sq/ft 
+          | Bucks.  What's the allure of coffee that get's us all dutifully out of bed and into the Starbucks line. Is it the promise of productivity or the illusion of it.
+          Sup#fnref1 
+            a(href="#fn1" rel="footnotes") 1
+        p 
+          | If a 4 dollar cup of "what can I get started for you today" coffee has that kind of 
+          | power than in many cases my Saturday morning visit to Starbucks is kindof like the Sunday morning visit to Church.
+          | The promise of the place
+          Sup#fnref2 
+            a(href="#fn2" rel="footnotes") 2        
+          | we need to go to one day be able to do the things we desire to do
+          | I go to to my Starbucks when I have perfectly good coffee at home, simply because 
+          | if I do it,grab my cup filled with hopes and dreams...I could go home and work on that 
+          | thing that Ive been working on for months that I will probably never finish.
+        include _boxedeq
+        p
+          | So our 
+          Strong coffee 
+          | dutifully wakes up at 5am 365 days a week, early and more consistently than most people. 
+          | It's become part of the very essence of everything we do, the minute we feel less prductive
+          | a "starbucks run" is called to order. Paying 
+          eq 40DOLLARS 
+          | for concentrated sugar, burnt coffee and cream is not logical especially if you do it on average 
+          | more than twice a week. That's nearly 40dollars a month the near equivalent to TimeWarner high 
+          | Speed internet plus you gotta stand in line.
+          Sup#fnref3 
+            a(href="#fn3" rel="footnotes") 3 
+        p
+          | But a sense of joy comes to us when we march into our place of work, with our Starbucks firmly gripped in our right hand. 
+          | It screams I'm going to be productive today, 
+          | I'm better than all of you shitty office coffe drinkers; white and green  for the win. That   
+          eq $4 
+          | is not as expensive anymore, that
+          eq +40dollars 
+          | a week makes perfect sense...it"s a price we pay to motivate us and elevate us...it's an illusion of success
+          | and attitude that could work to our benefit. It's something that we have to do....no matter the cost. 
+  .nav-entry
+     a(href="/archive").button.older Jumping Ship
+     a(href="/about").button.newer   Who Caters at Funerals
+
+  .footnotes
+      ol
+        li#fn1
+          p 1.
+            Strong Robot:
+            | a mechanical programmed machine composed of 
+            | a metal and sillicon.
+            a(href="#fnref1").reversefootnote
+              &#8617 
+        li#fn2
+          p 2.
+            Strong Starbucks:
+            | Established in 1992 with a firm mission to give 
+            |humanity the indulgence of burnt mutted coffee.
+            a(href="#fnref1").reversefootnote
+             &#8617
+        li#fn3
+          p 3.
+            Strong Coffee:
+            |sourced in 1208 in Jakarta Indonesisa... 
+            |one of the oldest trade crops..a luxury item 
+            |for the rich and a great cash crop for regional farmers.
+            a(href="#fnref3").reversefootnote
+             &#8617
+        
+  include _footer

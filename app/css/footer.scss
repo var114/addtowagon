@@ -1,0 +1,33 @@
+.footer-wrapper{
+  display: flex;
+  flex-direction: column;
+  clear: both;
+}
+
+.footer{
+  
+/*  position: relative; */
+  border-top: 0.3em dashed #ba7f01;
+  overflow: hidden; 
+  margin: 1em 0; 
+
+}
+
+
+.footer p{
+  flex: 1;
+  padding-top: 1em;
+  font-size: 80%;
+  text-align: center;
+}
+
+.footer .author p{
+  font-size: 90%;
+}
+
+/* ---------------- archived --------------------------------- */
+
+.archived {
+  text-align: center;
+  margin: 0 auto;
+}

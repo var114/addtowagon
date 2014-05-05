@@ -1,0 +1,23 @@
+
+.posts h1 a{
+  font-color: $gold-gold;
+  text-decoration: underline;
+  tex-align: center;
+}
+
+.archive{
+  margin: 2em auto;
+  clear: both;
+  text-align: center;
+  padding: 1em 0;
+
+}
+
+.posts a:hover{
+  color: #d11e1e; /* #ba7f01; */
+}
+
+ a:link, a:visited {
+  color: $gold-gold;
+  transition: all 0.4s ease-in-out;
+}

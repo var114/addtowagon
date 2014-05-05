@@ -1,0 +1,30 @@
+extends layout
+
+
+block about
+  .content
+      .posts
+        .about
+            h1 Me.
+            p
+             | The footer has a set height in pixels (or ems). 
+             | The div is absolutely positioned bottom:0; this moves it to the bottom of the container div.
+             | When there is little content on the page the container div is exactly the height of the browser 
+             | viewport (because of the min-height:100%;) and the footer sits neatly at the bottom of the screen.
+             | When there is more than a page of content the container div becomes larger and extends down below the
+             | bottom of the viewport - the footer is still positioned at the bottom of the container div but this 
+             | time you need to scroll 
+             | The footer has a set height in pixels (or ems). 
+             br
+            p     
+             | The div is absolutely positioned bottom:0; this moves it to the bottom of the container div.
+             | When there is little content on the page the container div is exactly the height of the browser 
+             | viewport (because of the min-height:100%;) and the footer sits neatly at the bottom of the screen.
+             | When there is more than a page of content the container div becomes larger and extends down below the
+             | bottom of the viewport - the footer is still positioned at the bottom of the container div but this 
+             | time you need to scroll 
+             | down to the end of the page to see it. The footer is also set to width:100%;
+             | so it stretches across the whole page.
+             | down to the end of the page to see it. The footer is also set to width:100%;
+             | so it stretches across the whole page.
+  include _footer
